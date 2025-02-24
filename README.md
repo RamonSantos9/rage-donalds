@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rage-Donalds
 
-## Getting Started
+![Pré-visualização do Site](public/assets/Thumbnail.png)
 
-First, run the development server:
+Rage-Donalds é um projeto desenvolvido para website mobile, proporcionando uma experiência única e otimizada para dispositivos móveis. Criado com foco em performance e escalabilidade, o projeto demonstra como unir tecnologias modernas para construir interfaces atraentes e responsivas.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Descrição
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O Rage-Donalds foi idealizado para mostrar como desenvolver websites mobile com uma estrutura modular e de fácil manutenção. Com uma abordagem mobile-first, o projeto serve como base para quem deseja experimentar e aprender novas técnicas no desenvolvimento web, garantindo uma ótima experiência em qualquer dispositivo.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Demonstração
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Confira a demonstração ao vivo: [rage-donalds.vercel.app/rage-donalds](https://rage-donalds.vercel.app/rage-donalds)
 
-## Learn More
+## Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js:** Framework React para criação de aplicações web escaláveis e performáticas.
+- **TypeScript:** Proporciona tipagem estática, aumentando a robustez do código.
+- **Tailwind CSS:** Framework CSS que permite estilizações rápidas e customizadas.
+- **Prisma:** ORM para gerenciamento e migração do banco de dados.
+- **ESLint & Prettier:** Ferramentas que garantem a padronização e qualidade do código.
+- **Vercel:** Plataforma de deploy otimizada para aplicações Next.js.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Funcionalidades
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Estrutura modular e escalável, facilitando a manutenção e evolução do projeto.
+- Design responsivo e mobile-first, garantindo excelente experiência em dispositivos móveis.
+- Componentização simplificada para um desenvolvimento ágil.
+- Configuração integrada com Next.js e Tailwind CSS para estilos customizados.
+- Ferramentas de lint e formatação para manter a consistência do código.
+- Otimizações de performance para uma navegação fluida.
 
-## Deploy on Vercel
+## Instalação
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para rodar o projeto localmente, siga os passos abaixo:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/RamonSantos9/rage-donalds.git

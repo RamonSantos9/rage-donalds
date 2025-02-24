@@ -13,7 +13,7 @@ const main = async () => {
         slug: "rage-donalds",
         description: "O melhor fast food do mundo",
         avatarImageUrl:
-          "https://u9a6wmr3as.ufs.sh/f/jppBrbk0cChQvcNP9rHlEJu1vCY5kLqzjf29HKaeN78Z6pRy",
+          "https://cdn.discordapp.com/attachments/1325202455297916928/1343613369877532763/logo.png?ex=67bde8f6&is=67bc9776&hm=6efeba1e1adcf9d2cd85aae0ff51731d93c4f3a4155743ac13370d1556474122&",
         coverImageUrl:
           "https://u9a6wmr3as.ufs.sh/f/jppBrbk0cChQac8bHYlkBUjlHSKiuseLm2hIFzVY0OtxEPnw",
       },
