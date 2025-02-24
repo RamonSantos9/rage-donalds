@@ -6,7 +6,7 @@ Rage-Donalds é um projeto desenvolvido para website mobile, proporcionando uma 
 
 ## Descrição
 
-O Rage-Donalds foi idealizado para mostrar como desenvolver websites mobile com uma estrutura modular e de fácil manutenção. Com uma abordagem mobile-first, o projeto serve como base para quem deseja experimentar e aprender novas técnicas no desenvolvimento web, garantindo uma ótima experiência em qualquer dispositivo.
+O Rage-Donalds foi idealizado para mostrar como desenvolver websites mobile com uma estrutura modular e de fácil manutenção. Com uma abordagem mobile-first, o projeto serve como base para quem deseja experimentar e aprender novas técnicas no desenvolvimento web, garantindo uma ótima experiência em qualquer dispositivo mobile e futuramenete terá a sua versão desktop.
 
 ## Demonstração
 
