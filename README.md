@@ -1,6 +1,6 @@
 # Rage-Donalds
 
-![Pré-visualização do Site](public/assets/Thumbnail.png)
+![Pré-visualização do Site](public/Thumbnail.png)
 
 Rage-Donalds é um projeto desenvolvido para website mobile, proporcionando uma experiência única e otimizada para dispositivos móveis. Criado com foco em performance e escalabilidade, o projeto demonstra como unir tecnologias modernas para construir interfaces atraentes e responsivas.
 
@@ -29,11 +29,3 @@ Confira a demonstração ao vivo: [rage-donalds.vercel.app/rage-donalds](https:/
 - Configuração integrada com Next.js e Tailwind CSS para estilos customizados.
 - Ferramentas de lint e formatação para manter a consistência do código.
 - Otimizações de performance para uma navegação fluida.
-
-## Instalação
-
-Para rodar o projeto localmente, siga os passos abaixo:
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/RamonSantos9/rage-donalds.git
