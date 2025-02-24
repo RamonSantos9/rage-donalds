@@ -2,30 +2,57 @@
 
 ![Pré-visualização do Site](public/Thumbnail.png)
 
-Rage-Donalds é um projeto desenvolvido para website mobile, proporcionando uma experiência única e otimizada para dispositivos móveis. Criado com foco em performance e escalabilidade, o projeto demonstra como unir tecnologias modernas para construir interfaces atraentes e responsivas.
+Rage-Donalds é um projeto desenvolvido para websites mobile, oferecendo uma experiência única e otimizada para dispositivos móveis. Com foco em performance e escalabilidade, este projeto demonstra a união de tecnologias modernas para criar interfaces atraentes e responsivas.
 
 ## Descrição
 
-O Rage-Donalds foi idealizado para mostrar como desenvolver websites mobile com uma estrutura modular e de fácil manutenção. Com uma abordagem mobile-first, o projeto serve como base para quem deseja experimentar e aprender novas técnicas no desenvolvimento web, garantindo uma ótima experiência em qualquer dispositivo mobile e futuramenete terá a sua versão desktop.
+Concebido para exemplificar o desenvolvimento de websites mobile com uma estrutura modular e de fácil manutenção, o Rage-Donalds adota uma abordagem mobile-first. Ele serve como base para quem deseja experimentar e aprender novas técnicas no desenvolvimento web, e em breve também contará com uma versão para desktop, ampliando suas possibilidades de uso.
 
 ## Demonstração
 
-Confira a demonstração ao vivo: [rage-donalds.vercel.app/rage-donalds](https://rage-donalds.vercel.app/rage-donalds)
+Experimente a versão ao vivo: [rage-donalds.vercel.app/rage-donalds](https://rage-donalds.vercel.app/rage-donalds)
 
 ## Tecnologias Utilizadas
 
-- **Next.js:** Framework React para criação de aplicações web escaláveis e performáticas.
-- **TypeScript:** Proporciona tipagem estática, aumentando a robustez do código.
-- **Tailwind CSS:** Framework CSS que permite estilizações rápidas e customizadas.
+- **Next.js:** Framework React para construção de aplicações web escaláveis e performáticas.
+- **TypeScript:** Linguagem com tipagem estática que aumenta a robustez do código.
+- **Tailwind CSS:** Framework CSS que possibilita estilizações rápidas e customizadas.
 - **Prisma:** ORM para gerenciamento e migração do banco de dados.
-- **ESLint & Prettier:** Ferramentas que garantem a padronização e qualidade do código.
+- **ESLint & Prettier:** Ferramentas para manter a padronização e qualidade do código.
 - **Vercel:** Plataforma de deploy otimizada para aplicações Next.js.
 
 ## Funcionalidades
 
-- Estrutura modular e escalável, facilitando a manutenção e evolução do projeto.
-- Design responsivo e mobile-first, garantindo excelente experiência em dispositivos móveis.
-- Componentização simplificada para um desenvolvimento ágil.
-- Configuração integrada com Next.js e Tailwind CSS para estilos customizados.
-- Ferramentas de lint e formatação para manter a consistência do código.
-- Otimizações de performance para uma navegação fluida.
+- **Estrutura Modular:** Facilita a manutenção e evolução do projeto.
+- **Design Responsivo e Mobile-First:** Garante uma experiência excelente em dispositivos móveis.
+- **Componentização Simplificada:** Permite um desenvolvimento ágil.
+- **Integração com Next.js e Tailwind CSS:** Oferece estilos customizados de forma prática.
+- **Ferramentas de Lint e Formatação:** Mantêm a consistência e a qualidade do código.
+- **Otimizações de Performance:** Asseguram uma navegação fluida.
+
+## Instalação
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/RamonSantos9/rage-donalds.git
+
+2 **Entre na pasta do projeto:**
+    cd rage-donalds
+
+3 **Configure as variáveis de ambiente**
+    > Crie um arquivo .env na raiz do projeto e adicione a seguinte linha:
+    DATABASE_URL="[neondb](https://neon.tech)"
+
+4 **Instale as dependências**
+    npm install
+
+5 **Inicie o servidor de desenvolvimento**
+    npm run dev
+
+6 **Acesse o projeto: Abra seu navegador e digite**
+    http://localhost:3000/rage-donalds
+
+7 **Visualização Mobile**
+    Como este projeto é mobile-first e ainda não possui uma versão adaptada para desktop, utilize as ferramentas de desenvolvedor do seu navegador (pressione CTRL + SHIFT + C ou selecione "Inspecionar Elemento") para simular a visualização em dispositivos móveis.
