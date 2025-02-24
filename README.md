@@ -39,20 +39,25 @@ Siga os passos abaixo para rodar o projeto localmente:
    git clone https://github.com/RamonSantos9/rage-donalds.git
 
 2 **Entre na pasta do projeto:**
+    ```bash
     cd rage-donalds
 
 3 **Configure as variáveis de ambiente**
     > Crie um arquivo .env na raiz do projeto e adicione a seguinte linha:
+    ```bash
     DATABASE_URL="[neondb](https://neon.tech)"
 
 4 **Instale as dependências**
+    ```bash
     npm install
 
 5 **Inicie o servidor de desenvolvimento**
+    ```bash
     npm run dev
 
 6 **Acesse o projeto: Abra seu navegador e digite**
     http://localhost:3000/rage-donalds
 
 7 **Visualização Mobile**
+
     Como este projeto é mobile-first e ainda não possui uma versão adaptada para desktop, utilize as ferramentas de desenvolvedor do seu navegador (pressione CTRL + SHIFT + C ou selecione "Inspecionar Elemento") para simular a visualização em dispositivos móveis.
