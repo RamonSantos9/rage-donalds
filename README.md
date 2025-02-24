@@ -38,26 +38,44 @@ Siga os passos abaixo para rodar o projeto localmente:
    ```bash
    git clone https://github.com/RamonSantos9/rage-donalds.git
 
-2 **Entre na pasta do projeto:**
+2. **Entre na pasta do projeto:**
+
     ```bash
     cd rage-donalds
 
-3 **Configure as variáveis de ambiente**
+3. **Configure as variáveis de ambiente**
+
     > Crie um arquivo .env na raiz do projeto e adicione a seguinte linha:
     ```bash
-    DATABASE_URL="[neondb](https://neon.tech)"
 
-4 **Instale as dependências**
+    DATABASE_URL="postgresql://<usuário>:<senha>@<host>.neon.tech/<nome_do_banco>?sslmode=require"
+
+Substitua <usuário>, <senha>, <host> e <nome_do_banco> pelas informações correspondentes do seu banco de dados no Neon. Para obter a string de conexão correta, acesse o painel do Neon, selecione seu projeto e clique em "Connect". Mais informações podem ser encontradas na documentação do Neon.
+
+4. **Instale as dependências**
+
     ```bash
     npm install
 
-5 **Inicie o servidor de desenvolvimento**
+5. **Inicie o servidor de desenvolvimento**
+
     ```bash
     npm run dev
 
-6 **Acesse o projeto: Abra seu navegador e digite**
+6. **Acesse o projeto: Abra seu navegador e digite**
+
     http://localhost:3000/rage-donalds
 
-7 **Visualização Mobile**
+7. **Visualização Mobile**
 
     Como este projeto é mobile-first e ainda não possui uma versão adaptada para desktop, utilize as ferramentas de desenvolvedor do seu navegador (pressione CTRL + SHIFT + C ou selecione "Inspecionar Elemento") para simular a visualização em dispositivos móveis.
+
+**Observações Importantes:**
+
+- **Configuração do Banco de Dados com Neon:** O Neon é um serviço de banco de dados PostgreSQL gerenciado que oferece uma camada gratuita generosa. Para configurar o `DATABASE_URL` corretamente, siga as instruções fornecidas no painel do Neon após a criação do seu projeto. Mais detalhes estão disponíveis na [documentação oficial do Neon](https://neon.tech/docs/guides/nextjs).
+
+- **Segurança:** Nunca compartilhe suas credenciais sensíveis publicamente. Certifique-se de que o arquivo `.env` esteja listado no `.gitignore` para evitar que seja versionado.
+
+- **Deploy:** Para fazer o deploy do projeto, considere utilizar a Vercel, que oferece integração simplificada com projetos Next.js. Durante o processo de deploy, configure as variáveis de ambiente no painel da Vercel, incluindo o `DATABASE_URL`.
+
+Seguindo essas instruções, você estará pronto para rodar e desenvolver o projeto Rage-Donalds localmente, além de estar preparado para futuras implementações e contribuições.
